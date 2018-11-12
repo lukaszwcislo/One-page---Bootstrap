@@ -1,0 +1,288 @@
+body {
+	margin: 0;
+}
+
+section {
+	padding: 50px 0;
+}
+h2 {
+    margin: 30px 0 30px 0;
+    font-size: 4em;
+}
+h3 {
+    font-size: 2em;
+}
+p {
+    margin: 30px 0 30px 0;
+    font-size: 1.5em;
+}
+/*-------------------------- NAVBAR ----------------------- */
+.navbar-default {
+	transition: all 0.4s;
+	background-color: transparent;
+	border: 0;
+    padding: 20px;
+}
+
+.navbar-default.nav-colored {
+	background-color: rgba(29, 87, 102, 0.76);
+}
+.navbar-header .navbar-brand {
+    color: white;
+    font-size: 22px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-laptop {
+    font-size: 86px;
+    position: absolute;
+    top:1px;
+}
+
+/*-------------------------- HEADER ----------------------- */
+header {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url('../img/laptop.jpg');
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+header .inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+}
+
+header h1 {
+    margin-bottom: 40px;
+    font-size: 5em;
+}
+/*------------------------ SERVICES ------------------------ */
+#services {
+	text-align: center;
+}
+
+#services .fa {
+	color: #FFFFFF;
+	font-size: 3em;
+	width: 110px;
+	height: 110px;
+	line-height: 80px;
+	border: 1px solid #1d6fa7;
+	border-radius: 50%;
+	background-color: #1d6fa7;
+	transition: all .3s;
+    padding: 14px;
+}
+
+#services .fa:hover {
+	background-color: #FFFFFF;
+	transform: rotate(360deg);
+	color: #1d6fa7;
+}
+
+/*---------------------- PORTFOLIO -------------------------*/
+#portfolio {
+	background-color: #F7F7F7;
+	text-align: center;
+}
+
+#portfolio .single-portfolio-item {
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+#portfolio .portfolio-image-container {
+	height: 300px;
+	overflow: hidden;
+}
+
+#portfolio .portfolio-image-container .portfolio-image {
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	transition: all .3s;
+}
+
+#portfolio .portfolio-image-container .portfolio-image:hover {
+	transform: scale(1.2);
+    cursor: pointer;
+}
+
+#portfolio-item-1 {
+	background-image: url('../img/portfolio/break.jpg');
+}
+
+#portfolio-item-2 {
+	background-image: url('../img/portfolio/business.jpg');
+}
+
+#portfolio-item-3 {
+	background-image: url('../img/portfolio/business2.jpg');
+}
+
+#portfolio-item-4 {
+	background-image: url('../img/portfolio/pizza.jpg');
+}
+
+#portfolio-item-5 {
+	background-image: url('../img/portfolio/morning.jpg');
+}
+
+#portfolio-item-6 {
+	background-image: url('../img/portfolio/color.jpg');
+}
+
+#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask {
+	background-color: rgba(8, 29, 33, 0.85);
+	height: 100%;
+	opacity: 0;
+	position: relative;
+	transition: all .3s;
+}
+
+#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask:hover {
+	opacity: 1;
+}
+
+#portfolio .portfolio-image-container .portfolio-image .portfolio-image-mask .fa {
+	position: absolute;
+	color: #FFFFFF;
+	font-size: 3em;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all .3s;
+}
+
+/*------------------------- TEAM ---------------------------------*/
+#team .team-member {
+	margin-bottom: 30px;
+}
+
+#team figure i {
+	max-height: 230px;
+    font-size: 140px;
+}
+
+#team .social a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border: 1px solid transparent;
+	background-color: #000000;
+	border-radius: 50%;
+	transition: all .3s;
+	margin: 0 5px;
+}
+
+#team .social a .fa {
+	color: #FFFFFF;
+	font-size: 1.5em;
+	line-height: 40px;
+}
+
+#team .social a:hover {
+	background-color: rgb(8, 29, 33);
+}
+
+#team figure figcaption {
+	font-size: 1.5em;
+}
+
+#team .team-member p {
+	font-size: 1em;
+    margin: 10px; 
+}
+
+/*-------------------------- CONTACT ----------------------------- */
+#contact {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../img/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+#contact h2,
+#contact p {
+    color: #FFFFFF;
+}
+
+#contact input:not([type="submit"]),
+#contact textarea {
+    width: 100%;
+    border: 0;
+    background-color: #ffffff75;
+    color: white;
+}
+
+#contact input,
+#contact textarea {
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#contact input[type="submit"] {
+    background-color: #1d5766;
+    border: 1px solid #1d5766;
+    color: #FFFFFF;
+    transition: all .3s;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    color: #1d5766;
+}
+
+/*----------------------- FOOTER ------------------------------ */
+footer {
+    padding: 30px 0;
+    line-height: 50px;
+    background-color: rgb(4, 14, 16);
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+footer .social a {
+    display: inline-block;
+	height: 80px;
+	width: 80px;
+	border: 1px solid transparent;
+	background-color: rgb(4, 14, 16);
+	border-radius: 50%;
+	transition: all .3s;
+	margin: 0 5px;
+    padding: 20px;
+}
+footer .social a:hover {
+    background-color: rgb(8, 29, 33);
+}
+
+footer .social a .fa {
+    font-size: 2.5em;
+    color: #FFFFFF;
+}
