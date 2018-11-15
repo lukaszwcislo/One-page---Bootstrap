@@ -6,7 +6,7 @@
     
     .navbar.navbar-default a,
     .navbar-default.nav-colored a {
-        color: #4e4e4e;
+        color: #4e4e4e!important;
     }
     
     .navbar.navbar-default a:hover,
@@ -30,6 +30,10 @@
     
     #contact [class*='col-'] {
         margin-bottom: 30px;
+    }
+    
+    .container>.navbar-header {
+        padding-bottom: 18px;
     }
 }
 
