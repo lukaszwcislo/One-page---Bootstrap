@@ -6,7 +6,7 @@
     
     .navbar.navbar-default a,
     .navbar-default.nav-colored a {
-        color: #0ED8D6;
+        color: #4e4e4e;
     }
     
     .navbar.navbar-default a:hover,
@@ -21,7 +21,7 @@
     
     .navbar.navbar-default .navbar-toggle:hover,
     .navbar.navbar-default .icon-bar {
-        background-color: #0ED8D6;
+        background-color: #4e4e4e;
     }
     
     .navbar.navbar-default .navbar-toggle:hover .icon-bar{
@@ -32,6 +32,7 @@
         margin-bottom: 30px;
     }
 }
+
 
 @media all and (max-width: 480px) {
 }
