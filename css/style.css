@@ -67,6 +67,10 @@ header h1 {
     font-family: 'Great Vibes' , cursive;
     font-weight: bold;
 }
+
+.btn-info {
+    font-size: 20px;
+}
 /*------------------------ SERVICES ------------------------ */
 #services {
 	text-align: center;
