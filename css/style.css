@@ -21,7 +21,7 @@ p {
 	transition: all 0.4s;
 	background-color: transparent;
 	border: 0;
-    padding: 20px 20px 0 20px;
+    padding: 1px 20px 0 20px;
     text-align: center;
 }
 
@@ -31,6 +31,7 @@ p {
 .navbar-header .navbar-brand {
     color: white;
     font-size: 22px;
+
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
@@ -40,7 +41,8 @@ p {
 .fa-laptop {
     font-size: 60px;
     position: absolute;
-    top: 13px;
+    top: 4px;
+    width: 68px;
 }
 
 /*-------------------------- HEADER ----------------------- */
@@ -62,7 +64,7 @@ header .inner {
 header h1 {
     margin-bottom: 40px;
     font-size: 6em;
-    font-family: 'Parisienne' , cursive;
+    font-family: 'Great Vibes' , cursive;
     font-weight: bold;
 }
 /*------------------------ SERVICES ------------------------ */
