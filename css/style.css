@@ -21,7 +21,7 @@ p {
 	transition: all 0.4s;
 	background-color: transparent;
 	border: 0;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     text-align: center;
 }
 
@@ -61,7 +61,9 @@ header .inner {
 
 header h1 {
     margin-bottom: 40px;
-    font-size: 5em;
+    font-size: 6em;
+    font-family: 'Parisienne' , cursive;
+    font-weight: bold;
 }
 /*------------------------ SERVICES ------------------------ */
 #services {
