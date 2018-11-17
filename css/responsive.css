@@ -32,8 +32,9 @@
         margin-bottom: 30px;
     }
     
+    .fa-laptop {
+    font-size: 50px;
+    top: 0px;
+    position: absolute;
 }
-
-
-@media all and (max-width: 480px) {
 }
