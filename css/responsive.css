@@ -32,9 +32,15 @@
         margin-bottom: 30px;
     }
     
-    .fa-laptop {
-    font-size: 50px;
-    top: 0px;
-    position: absolute;
+   .navbar-header .navbar-brand {
+    color: white;
+    font-size: 22px;
+    background-image: url(../img/internet.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 55px;
+    height: 55px;
+
 }
 }
