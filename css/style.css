@@ -79,6 +79,9 @@ header h1 {
     font-family: 'Ubuntu' , cursive;
     font-weight: bold;
 }
+header h2 {
+    font-family: 'Thasadith' , cursive;
+}
 
 .btn-info {
     font-size: 20px;
