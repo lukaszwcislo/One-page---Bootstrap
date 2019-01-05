@@ -27,6 +27,9 @@
     .navbar.navbar-default .navbar-toggle:hover .icon-bar{
         background-color: #FFFFFF;
     }
+    .navbar-default {
+        padding: 0;
+    }
     
     #contact [class*='col-'] {
         margin-bottom: 30px;
